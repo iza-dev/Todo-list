@@ -10,7 +10,7 @@ class TodoList extends Component {
     }
 
 
-    onChange(event){
+    onChange(event){ 
         console.log(event.target.value);
         this.setState({
             userInput: event.target.value
